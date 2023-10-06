@@ -70,14 +70,24 @@ button:focus-visible {
 
 .recherche{
   background-color: #c0dfef;
+  color: #213547;
+  width: 4em;
 }
 
 input{
   background-color: white;
   color: black;
+  height: 3em;
+  border: solid 1px;
 }
 
 .container{
   background-color: #c0dfef;
   border-radius: 1em;
+}
+
+.loc{
+  background-color: #c0dfef;
+  color: #1a1a1a;
+  border: solid 2px;
 }

@@ -42,9 +42,9 @@ const WeatherDisplay = ({ data }) => {
   return (
     <div>
         <div className="container">
-            <p><b>{data.city}</b>  |  FRANCE</p>
+            <p><b>{data.city}</b> | FRANCE</p>
             <hr />
-            <table width="100%"  cellspacing="0" cellpadding="0">
+            <table width="100%">
                 <tr>
                     <td><b style={{ fontSize: '2em'}}>{data.temperature}°C</b></td>
                     <td rowspan="2">{img}</td>
@@ -55,7 +55,6 @@ const WeatherDisplay = ({ data }) => {
             </table>
             <hr />
             <p>{conseil}</p>
-            <br />
         </div>
     </div>
   );
